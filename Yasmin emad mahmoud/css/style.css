@@ -1,0 +1,141 @@
+
+
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.nav{
+    background-color: #222533;
+    color: #FFFFFF;
+    padding: 0 170px;
+
+}
+
+.sec-1{
+    background: linear-gradient(RGBA(0,0,0,0.7),RGBA(0,0,0,0.7)),
+    url("../images/banner.jpg") no-repeat center center/cover;
+    padding: 100px 100px;
+    color: #FFFFFF;
+}
+.sec-1>div h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.sec-1>div h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sec-1>div p{
+    font-size: 1rem;
+text-align: center;
+/* margin-left: 0 90px; */
+}
+
+.sec-1>div a{
+    background-color: black;
+    /* padding: 0 10px; */
+    text-decoration: none;
+    font-weight: 800;
+}
+.sec-2{
+    padding: 100px 100px;
+
+}
+
+.sec-2>div>div>div a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+.sec-3{
+    background: linear-gradient(RGBA(0,0,0,0.7),RGBA(0,0,0,0.7)),
+    url("../images/bg4.jpg") no-repeat center center/cover;
+    padding: 100px 200px;
+    color: #FFFFFF;
+}
+
+.sec-3>div>div>div img{
+    border-radius: 50%;
+    margin-bottom: -50px;
+}
+
+.sec-3>div>div>div>div{
+    background: RGBA(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 60px 20px 5px;
+}
+
+.sec-4{
+    padding: 100px 100px;
+}
+
+.sec-4 a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+.sec-4 .container1{
+    position: relative;
+
+}
+
+.sec-4 .img{
+    display: block;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    opacity: 2;
+}
+
+.sec-5{
+    background: linear-gradient(RGBA(97,92,98,0.9),RGBA(97,92,98,0.7)),
+    url("../images/bg2.jpg") no-repeat center center/cover;
+    padding: 100px 200px;
+    color: #FFFFFF;
+}
+
+.sec-6{
+    background: url("../images/bg3.jpg") no-repeat center center/cover;
+    padding: 100px 200px;
+}
+
+.color{
+    background-color: RGBA(30,36,48,0.7);
+    height: 50px;
+    opacity: 1;
+}
+
+.sec-7{
+    background-color: #FDDA5C;
+}
+
+.sec-8{
+    background: linear-gradient(RGBA(30,36,48,0.9),RGBA(30,36,48,0.7)),
+    url("../images/bg2.jpg") no-repeat center center/cover;
+    padding: 100px 200px;
+    color: #FFFFFF;
+}
+
+.footer{
+    background-color: #222533;
+    color: #FFFFFF;
+}
+
+
